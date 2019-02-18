@@ -1,0 +1,228 @@
+.conter{
+    padding:0 15px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#fff;
+}
+.container{
+    padding:0px;
+    margin-right:auto;
+    margin-left:auto;
+    width: 1100px;
+    height: 80px;
+}
+.container .el-col-6{
+    width:50%;
+}
+.container img{
+    margin:10px 0px;
+    height:60px;
+}
+/* logo样式结束 */
+
+.nav{
+    margin-bottom:15px;
+    background-color:#34495e;
+}
+
+.nav .el-menu-demo{
+    width: 1100px;
+    height: 53px;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom:0px !important;
+    background-color:#34495e;
+    font-weight:700;
+}
+
+.nav .el-menu-item{
+    height: 53px !important;
+    font-size:16px;
+    color:#fff !important;
+    border:0px !important;
+    padding:16px 23px;
+    text-align:center;
+    line-height:21px !important;
+    
+}
+
+.el-menu--horizontal>.el-menu-item:not(.is-disabled):hover{
+    background-color:#34495e !important;
+    color:#1abc9c !important;
+}
+
+.is-active {
+    background-color: #1abc9c;
+}
+
+.el-menu--horizontal>.el-menu-item:not(.is-disabled):focus{
+    background-color: #1abc9c !important;
+    color:#fff !important;
+}
+
+.nav [class*=" el-icon-"], [class^=el-icon-]{
+    font-weight:700 !important;
+}
+/* 导航栏结束 */
+
+.row{
+    width: 1100px;
+    height: 324px;
+    margin:0 auto;
+}
+/* 幻灯片结束 */
+
+.row-right{
+    padding-left:15px;
+    height: 324px;
+}
+
+.wenku-count{
+    height: 56px;
+    padding-top:5px;
+    padding-bottom:4px;
+    font-size:16px;
+    margin-bottom:15px;
+    background-color:#fff;
+}
+
+.wenku-count .el-col{
+    border-right:1px solid #efefef;
+    text-align:center;
+}
+
+.wenku-count .help-block{
+    font-size:14px;
+    color:#6b7a88;
+    margin-top:5px;
+    line-height:1.72222;
+}
+
+.wenku-count .text{
+    color:#1abc9c;
+    font-size:16px;
+    text-align:center;
+}
+
+.panel{
+    width: 260px;
+    height: 229px;
+    margin-bottom:15px;
+    background-color:#fff;
+}
+
+.panel-body{
+    padding:15px;
+    font-size:16px;
+    line-height:1.72222;
+}
+
+.panel-body .el-input__inner{
+    height: 42px;
+    margin-bottom:20px;
+    font-size:15px;
+    border:2px solid #bdc3c7;
+    border-radius:6px;
+    padding:12px;
+}
+
+.el-button--primary{
+    font-weight:400 !important;
+    background-color:#1abc9c !important;
+    border-color:#1abc9c !important;
+    width:230px !important;
+}
+
+.el-form-item{
+    margin-bottom:5px !important;
+}
+
+.el-button--primary:hover{
+    background-color:#48c9b0 !important;
+    border-color:#48c9b0 !important;
+}
+
+.panel .help-block{
+    color:#555;
+    font-size:14px;
+}
+
+.panel .help-block a:hover{
+    color:#1abc9c;
+}
+
+.panel .help-block .help-left{
+    float:left;
+}
+
+.panel .help-block .help-right{
+    float:right;
+}
+/* 侧边栏结束 */
+
+.container-fluid{
+    height: 110px;
+    background-color:#fff;
+    margin-bottom:15px;
+    padding:15px;
+}
+
+.containe{
+    width: 1100px;
+    height: 110px;
+    margin:0 auto;
+}
+
+.el-row{
+    margin:0 !important;
+}
+
+.el-row .el-col-6{
+    padding:0 15px !important;
+}
+
+.containe .h5{
+    font-size:28px;
+    font-weight:700;
+    margin:10px 0px;
+}
+
+.wenku-list{
+    height: 60px;
+}
+
+.wenku-list a{
+    display:inline-block;
+    font-size:16px;
+    margin-right:10px;
+}
+/* 数据分类结束 */
+
+.wenku-item{
+    width: 1100px;
+    height: 254px;
+    background-color:#fff;
+    margin:0 auto;
+}
+
+.wenku-item .el-col-12{
+    width: 542px;
+    height: 253px;
+    margin-top:1px;
+}
+
+.wenku-item .pane{
+    height: 238px;
+    line-height:1.72222;
+    margin-bottom:15px;
+}
+
+.wenku-item .pane-heading{
+    padding:10px 15px;
+    border-bottom:1px solid #ddd;
+    font-size:16px;
+}
+
+.wenku-item .pane-body{
+    padding:15px !important;
+}
