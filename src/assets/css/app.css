@@ -112,9 +112,8 @@
 }
 
 .panel-body{
+    height: 154px;
     padding:15px;
-    font-size:16px;
-    line-height:1.72222;
 }
 
 .panel-body .el-input__inner{
@@ -196,12 +195,15 @@
     font-size:16px;
     margin-right:10px;
 }
+
+.wenku-list a:hover{
+    color:#1abc9c;
+}
 /* 数据分类结束 */
 
 .wenku-item{
     width: 1100px;
     height: 254px;
-    background-color:#fff;
     margin:0 auto;
 }
 
@@ -215,6 +217,7 @@
     height: 238px;
     line-height:1.72222;
     margin-bottom:15px;
+    background-color:#fff;
 }
 
 .wenku-item .pane-heading{
@@ -224,5 +227,97 @@
 }
 
 .wenku-item .pane-body{
+    height: 160px;
     padding:15px !important;
+}
+
+.wenku-item .pane-body img{
+    width: 193px;
+    border:1px solid #efefef;
+}
+
+.pane-body .el-col-14{
+    height: 160px;
+}
+
+ul li{
+    padding-bottom:2px;
+    line-height:1.5;
+    margin-top:2px;
+    font-size:16px;
+}
+
+ul li a{
+    display:inline-block;
+    overflow: hidden;
+    margin-bottom:-3px;
+}
+
+ul li a:hover{
+    color:#1abc9c;
+}
+
+.wenku-item .wenku-mgl{
+    margin-left:16px;
+}
+
+.wenku-item .noborder{
+    height: 240px;
+    margin-bottom:15px;
+    background-color:#fff;
+}
+
+.wenku-item .panel-default{
+    border-bottom:1px solid #ddd;
+    padding:10px 15px;
+    line-height:1.72222;
+}
+
+.wenku-item .panel-default a{
+    font-size:14px;
+    color:#bdc3c7;
+    float:right;
+}
+
+.wenku-item .panel-default a:hover{
+    color:#1abc9c;
+}
+
+.wenku-item .el-col-10 img{
+    width: 195px;
+    height: 152px;
+    border:1px solid #efefef;
+}
+
+.wenku-body{
+    width: 542px;
+    height: 247px;
+    margin-top:1px;
+}
+
+.wenku-noborder{
+    height: 232px;
+    margin-bottom:15px;
+    background-color:#fff;
+}
+/* 详细分类结束 */
+
+.footer{
+    height: 79px;
+    background-color:#666;
+    padding:40px;
+}
+
+.footer .footer-text{
+    width: 1100px;
+    height: 80px;
+    font-size:13px;
+    text-align:center;
+}
+
+.footer .footer-text a{
+    margin:0 8px;
+    display:inline-block;
+    color:#fff;
+    height: 26px;
 }

@@ -126,12 +126,133 @@
             <strong>热门推荐</strong>
           </div>
             <div class="pane-body">
-              <a href="" class="wenku-padding">
+              <el-col :span="10">
                 <img src="./assets/images/cover-news.png" alt="">
-              </a>
-            </div>
+              </el-col>
+              <el-col :span="14">
+                <ul>
+                  <li>
+                    <a href="" title="大学英语II期末复习">大学英语II期末复习</a>
+                  </li>
+                  <li>
+                    <a href="" title="七组订餐项目">七组订餐项目</a>
+                  </li>
+                  <li>
+                    <a href="" title="10minutes ToGit">10minutes ToGit</a>
+                  </li>
+                  <li>
+                    <a href="" title="第一套30道题找不到请自行百度">第一套30道题找不到请自行百度</a>
+                  </li>
+                  <li>
+                    <a href="" title="利用Axure制作需求文档">利用Axure制作需求文档</a>
+                  </li>
+                </ul>
+              </el-col>
+            </div>            
         </div>       
       </el-col>
+      
+      <el-col :span="12" class="wenku-mgl">
+        <div class="noborder">
+          <div class="panel-default">
+            <strong>编程开发</strong>
+            <a href="" title="编程开发">更多>></a>
+          </div>
+          <div class="panel-body">
+            <el-col :span="10">
+              <img src="./assets/images/cover-coding.png" alt="编程开发">
+            </el-col>
+            <el-col :span="14">
+              <ul>
+                <li>
+                  <a href="" title="10minutes ToGit">10minutes ToGit</a>
+                </li>
+                <li>
+                  <a href="" title="第一套30道题找不到请自行百度">第一套30道题找不到请自行百度</a>
+                </li>
+                <li>
+                  <a href="" title="利用Axure制作需求文档">利用Axure制作需求文档</a>
+                </li>
+                <li>
+                  <a href="" title="CSS命名规则12">CSS命名规则12</a>
+                </li>
+              </ul>
+            </el-col>
+          </div>
+        </div>
+      </el-col>
+    </div>
+
+    <div class="wenku-item">
+      <el-col :span="12">
+        <div class="noborder">
+          <div class="panel-default">
+            <strong>系统运维</strong>
+            <a href="" title="系统运维">更多>></a>
+          </div>
+          <div class="panel-body">
+            <el-col :span="10">
+              <img src="./assets/images/cover-opera.png" alt="系统运维">
+            </el-col>
+          </div>
+        </div>
+      </el-col>
+
+      <el-col :span="12" class="wenku-mgl">
+        <div class="noborder">
+          <div class="panel-default">
+            <strong>设计·创作</strong>
+            <a href="" title="设计·创作">更多>></a>
+          </div>
+          <div class="panel-body">
+            <el-col :span="10">
+              <img src="./assets/images/cover-design.png" alt="设计·创作">
+            </el-col>
+          </div>
+        </div>
+      </el-col>
+    </div>
+
+    <div class="wenku-item">
+      <el-col :span="12">
+        <div class="noborder">
+          <div class="panel-default">
+            <strong>云计算·大数据</strong>
+            <a href="" title="云计算·大数据">更多>></a>
+          </div>
+          <div class="panel-body">
+            <el-col :span="10">
+              <img src="./assets/images/cover-compute.png" alt="云计算·大数据">
+            </el-col>
+          </div>
+        </div>
+      </el-col>
+
+      <el-col :span="12" class="wenku-mgl">
+        <div class="noborder">
+          <div class="panel-default">
+            <strong>产品·运营·综合</strong>
+            <a href="" title="产品·运营·综合">更多>></a>
+          </div>
+          <div class="panel-body">
+            <el-col :span="10">
+              <img src="./assets/images/cover-product.png" alt="产品·运营·综合">
+            </el-col>
+          </div>
+        </div>
+      </el-col> 
+    </div>
+    <!-- 详细分类结束 -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <a href="" title="关于我们">关于我们</a>
+          <a href="" title="文库协议">文库协议</a>
+          <a href="" title="意见反馈">意见反馈</a>
+          <a href="" title="联系我们">联系我们</a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -142,7 +263,7 @@ import img1 from "./assets/images/banner.png";
 export default {
   data() {
     return {
-      img:{
+      img:{ 
         img,
         img1
       },
@@ -181,5 +302,8 @@ export default {
   }
   img{
     vertical-align:middle;
+  }
+  ul,li{
+    list-style:none;
   }
 </style>
